@@ -1,10 +1,14 @@
-function createTitle() {
-  
+function createTitle(title) {
+  return `The ${title}`
+};
+
+function buildMainCharacter(name, age, pronouns) {
+  return {name, age, pronouns}
 }
 
 module.exports = {
   createTitle,
-  // buildMainCharacter,
+  buildMainCharacter,
   // saveReview,
   // calculatePageCount,
   // writeBook,
