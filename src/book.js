@@ -3,7 +3,12 @@ function createTitle(title) {
 };
 
 function buildMainCharacter(name, age, pronouns) {
-  return {name, age, pronouns}
+  var character = {
+    name: name,
+    age: age,
+    pronouns: pronouns,
+  }
+  return character
 };
 
 function saveReview(review, reviewList) {
